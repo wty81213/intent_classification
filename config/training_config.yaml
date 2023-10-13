@@ -1,0 +1,8 @@
+env:
+  mode : training
+pre-processing:
+  dataset_folder : ./source/temp/dataset_20220920/
+  user_dict : ./source/dictionary/Simple_dict.txt
+
+training:
+  pretrained_model : ./source/pretrain-model/pytorch/chinese_wobert_L-12_H-768_A-12/
